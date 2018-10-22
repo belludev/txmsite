@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<title>TXM's Portfolio Site</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.16.0/lazyload.min.js"></script>
+		<script>
+			var myLazyLoad = new LazyLoad({
+			    elements_selector: ".lazy"
+			});
+		</script>
+		<style>
+			body{
+				background-color: #010101;
+			}
+			.bodySection{
+				display: grid;
+				grid-template-columns: 300px 1fr;
+				grid-template-areas: "nav mainSection";
+				grid-template-rows: auto;
+
+			}
+			nav{
+				background-color: #808080;
+				width: 300px;
+				height: 100%;
+				grid-area: nav;
+				overflow: none;
+				position: fixed;
+				max-height: 100vh;
+				
+			}
+			.mainSection{
+				grid-area: mainSection;
+
+			}
+		</style>
+	</head>
+	<body>
+		<div class="bodySection">
+			<nav>
+				<img id="logo" src="https://via.placeholder.com/200x200" alt="TXM Logo">
+				<div class="navigationBtn">
+					Home
+				</div>
+				<div class="navigationBtn" id="subNav">
+					Portfolio
+				</div>
+				<div class="navigationBtn">
+					About
+				</div>
+			</nav>
+			<main>
+				<h1>Twitter Header Designs</h1>
+				<div id="mainSection">
+					<img src="https://via.placeholder.com/1200x400" class="artwork lazy animated fadeIn">
+					<img src="https://via.placeholder.com/1200x400" class="artwork lazy animated fadeIn">
+					<img src="https://via.placeholder.com/1200x400" class="artwork lazy animated fadeIn">
+					<img src="https://via.placeholder.com/1200x400" class="artwork lazy animated fadeIn">
+					<img src="https://via.placeholder.com/1200x400" class="artwork lazy animated fadeIn">
+					<img src="https://via.placeholder.com/1200x400" class="artwork lazy animated fadeIn">
+					<img src="https://via.placeholder.com/1200x400" class="artwork lazy animated fadeIn">
+					<img src="https://via.placeholder.com/1200x400" class="artwork lazy animated fadeIn">
+					<img src="https://via.placeholder.com/1200x400" class="artwork lazy animated fadeIn">
+					<img src="https://via.placeholder.com/1200x400" class="artwork lazy animated fadeIn">
+				</div>
+			</main>
+		</div>
+	</body>
+	
+</html>
