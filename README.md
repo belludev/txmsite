@@ -13,6 +13,6 @@ I'm hoping to accomplish all his needs with just this simple front end site.
   * Contact
     * Will contain methods of contact
 
-##Updates:
+## Updates:
 * October 22nd, 2018
   * Created Git repository
