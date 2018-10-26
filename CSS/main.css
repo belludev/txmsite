@@ -1,0 +1,32 @@
+.bodySection{
+	display: grid;
+	grid-template-rows: 1fr 30px;
+	grid-template-columns: 300px 1fr;
+	grid-template-areas: "nav main"
+						 "footer footer";
+}
+nav{
+	grid-area: nav;
+	background-color: yellow;
+	height: calc(100vh - 30px);
+}
+main{
+	grid-area: main;
+	background-color: red;
+	height: calc(100vh - 30px);
+	overflow: auto;
+}
+footer{
+	grid-area: footer;
+	background-color: blue;
+}
+
+.btn{
+	margin-bottom: 30px;
+}
+.btn > a{
+	background-color: #f0f;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 300px;
+}
