@@ -22,11 +22,8 @@ footer{
 }
 
 .btn{
-	margin-bottom: 30px;
-}
-.btn > a{
-	background-color: #f0f;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	width: 300px;
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
 }

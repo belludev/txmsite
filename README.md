@@ -16,3 +16,4 @@ I'm hoping to accomplish all his needs with just this simple front end site.
 ## Updates:
 * October 22nd, 2018
   * Created Git repository
+  * Created base structure
