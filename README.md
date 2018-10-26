@@ -17,3 +17,5 @@ I'm hoping to accomplish all his needs with just this simple front end site.
 * October 22nd, 2018
   * Created Git repository
   * Created base structure
+* October 25th, 2018
+  * Reformatted the navigation bar
