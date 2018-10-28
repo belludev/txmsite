@@ -19,3 +19,8 @@ I'm hoping to accomplish all his needs with just this simple front end site.
   * Created base structure
 * October 25th, 2018
   * Reformatted the navigation bar
+* October 27th, 2018
+  * Basic design applied
+  * Formatting of portfolio page
+  * Added page heading
+  * Footer copyright added

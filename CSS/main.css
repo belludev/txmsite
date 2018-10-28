@@ -1,29 +1,100 @@
+/*
+	Accent red: #ffa0a0;
+	Nav Grey: #424242;
+*/
+body{
+	font-family: 'Varela Round', sans-serif;
+	background: #272727;
+}
 .bodySection{
 	display: grid;
 	grid-template-rows: 1fr 30px;
 	grid-template-columns: 300px 1fr;
 	grid-template-areas: "nav main"
 						 "footer footer";
-}
-nav{
-	grid-area: nav;
-	background-color: yellow;
-	height: calc(100vh - 30px);
+						 overflow: hidden;
 }
 main{
 	grid-area: main;
-	background-color: red;
+	background-color: #272727;
 	height: calc(100vh - 30px);
-	overflow: auto;
+	
+	overflow-x: hidden;
+	width: 100%;
+	margin: auto;
 }
-footer{
-	grid-area: footer;
-	background-color: blue;
+#pageHead{
+	font-size: 28px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+#items{
+	padding: 10px;
+	overflow-y: auto;
+}
+.item {
+	width: 100%;
+	max-height: 300px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	overflow-y: hidden;
+}
+.item > img{
+	display: flex;
+	align-items: center;
+	max-width: 100%;
+	height: 100%;
+	display: block;
+	margin: auto;
 }
 
+
+footer{
+	grid-area: footer;
+	background-color: #303030;
+	color: #909090;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+/*
+	Navigation
+*/
+nav{
+	grid-area: nav;
+	background-color: #202020;
+	height: calc(100vh - 30px);
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.logo{}
+.logo > img{
+	display: block;
+	margin: 0 auto;
+	max-width: 300px;
+	height: auto;
+}
 .btn{
 	display: block;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
+	transition: all ease-in-out 300ms;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 2px;
+	color: white;
+	text-decoration: none;
+	border-left: 5px solid #ffa0a0;
+	margin-left: -5px;
+}
+.btn:hover{
+	margin-left: 0px;
+	
+	
 }
